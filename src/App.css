@@ -74,3 +74,19 @@ textarea {
 .script-output label {
   font-weight: bold;
 }
+
+/* FIX SELECT DROPDOWN */
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+}
+
+/* OPTION FIX */
+select option {
+  background: #1e293b;
+  color: #ffffff;
+}
+
+/* this hover css */
